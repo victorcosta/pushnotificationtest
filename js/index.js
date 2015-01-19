@@ -47,9 +47,9 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        alert('teste');
+        // alert('teste');
         console.log('Received Event: ' + id);
-        alert(id);
+        // alert(id);
     }
     // ,
     // successHandler: function(result) {
