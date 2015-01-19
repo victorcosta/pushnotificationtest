@@ -47,9 +47,7 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-
-
-
+        alert('teste');
         console.log('Received Event: ' + id);
         $('#texto').val(id);
     }
