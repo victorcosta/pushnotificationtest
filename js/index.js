@@ -48,7 +48,7 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
 
-        document.getElementById('texto').html = id;
+        document.getElementById('texto').value = id;
 
 
         console.log('Received Event: ' + id);
