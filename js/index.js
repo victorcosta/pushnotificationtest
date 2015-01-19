@@ -49,7 +49,7 @@ var app = {
 
         alert('teste');
         console.log('Received Event: ' + id);
-        $('#texto').val(id);
+        alert(id);
     }
     // ,
     // successHandler: function(result) {
