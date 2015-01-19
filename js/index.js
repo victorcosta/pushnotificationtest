@@ -48,10 +48,10 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
 
-        $('#texto').val(id);
 
 
         console.log('Received Event: ' + id);
+        $('#texto').val(id);
     }
     // ,
     // successHandler: function(result) {
