@@ -47,6 +47,10 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
+
+        document.getElementById('texto').html = id;
+
+
         console.log('Received Event: ' + id);
     }
     // ,
